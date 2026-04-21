@@ -16,3 +16,18 @@ packages:
           environment: {}
           annotations: {}
           limits: {}
+    - name: ocr
+      shared: false
+      environment: {}
+      parameters: {}
+      annotations: {}
+      functions:
+        - name: read-image
+          binary: false
+          main: ""
+          runtime: python:3.13
+          web: true
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
