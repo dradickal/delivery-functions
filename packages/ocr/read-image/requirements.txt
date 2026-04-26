@@ -248,25 +248,20 @@ tifffile==2026.4.11 \
     --hash=sha256:17758ff0c0d4db385792a083ad3ca51fcb0f4d942642f4d8f8bc1287fdcf17bc \
     --hash=sha256:9b94ffeddb39e97601af646345e8808f885773de01b299e480ed6d3a41509ec9
     # via scikit-image
-torch==2.11.0 ; sys_platform == 'darwin' \
+torch==2.11.0 \
     --hash=sha256:442ec9dc78592564fdad69cf0beaa9da2f82ab810ccb4f13903869a90bf3f15d \
     --hash=sha256:cc3a195701bba2239c313ee311487f80f8aaebe9e89b9073dddbcf2f93b5a0ba
     # via
     #   delivery-functions
     #   easyocr
     #   torchvision
-torch==2.11.0+cpu ; sys_platform != 'darwin'
-    # via
-    #   delivery-functions
-    #   easyocr
-    #   torchvision
-torchvision==0.26.0 ; sys_platform == 'darwin' \
+torchvision==0.26.0 \
     --hash=sha256:358fc4726d0c08615b6d83b3149854f11efb2a564ed1acb6fce882e151412d23 \
     --hash=sha256:5d63dd43162691258b1b3529b9041bac7d54caa37eae0925f997108268cbf7c4
     # via
     #   delivery-functions
     #   easyocr
-torchvision==0.26.0+cpu ; sys_platform != 'darwin' \
+torchvision==0.26.0+cpu \
     --hash=sha256:050aaf28cff9c2981ec72dc3f9b4ef77bcf9c9c99330ce426cb06c5bb9e6e726 \
     --hash=sha256:16c4f11eda096dc377e82238c8ebb26c7013622c0f1b2c4dcf85fc70f96c0ea7 \
     --hash=sha256:2e932af123a39137815dfd152c64cc683fa7cbd327c965e807c9728c7aa4971a \
